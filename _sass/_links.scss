@@ -1,6 +1,10 @@
 a {
   color: $link-color;
-  text-decoration: none !important;
+  text-decoration: none;
+}
+
+p > a, small > a {
+  text-decoration: underline;
 }
 
 a:hover,
